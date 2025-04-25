@@ -1,18 +1,17 @@
 # sddm-astronaut-theme
 
-![Stars](https://img.shields.io/github/stars/keyitdev/sddm-astronaut-theme?color=dd864a&labelColor=1b1b25&style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/keyitdev/sddm-astronaut-theme?color=bf616a&labelColor=1b1b25&style=for-the-badge)
-[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/keyitdev)
+![Stars](https://img.shields.io/github/stars/kakawait/sddm-astronaut-theme?color=dd864a&labelColor=1b1b25&style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/kakawait/sddm-astronaut-theme?color=bf616a&labelColor=1b1b25&style=for-the-badge)
 
-[sddm-astronaut-theme](https://github.com/Keyitdev/sddm-astronaut-theme) is a series of themes for the [SDDM](https://github.com/sddm/sddm/) display manager made by **[Keyitdev](https://github.com/Keyitdev)**.
+[sddm-astronaut-theme](https://github.com/kakawait/sddm-astronaut-theme) is a series of themes for the [SDDM](https://github.com/sddm/sddm/) display manager made by **[Keyitdev](https://github.com/Keyitdev)** and forked by myself **[Kakawait](https://github.com/kakawait)**.
 
 It's written using the latest version of Qt, which is **Qt6**. Its key features include **virtual keyboard support** and an **installation script**. This theme also support **animated wallpapers**. You can easily change its appearance by choosing another of the ten pre-made themes or creating your own. Each of these themes was created by modifying just one file - **[config](./Themes/astronaut.conf)**.
 
-All themes were created for 1080p. However, they should work well in other resolutions.
+Most themes were created for 1080p. However, they should work well in other resolutions.
 
 ## Preview of all themes
 
-![all_themes.gif](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/all_themes.gif?raw=true)
+![all_themes.gif](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/all_themes.gif?raw=true)
 
 ## Preview of animated themes
 
@@ -24,13 +23,13 @@ https://github.com/user-attachments/assets/2cfc947e-4621-4e98-b5f3-07d5e224b80c
 
 **Astronaut**|**Black hole**
 |:--:|:--:|
-![astronaut](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/astronaut.png?raw=true)|![black_hole](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/black_hole.png?raw=true)
+![astronaut](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/astronaut.png?raw=true)|![black_hole](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/black_hole.png?raw=true)
 **Japanese aesthetic**|**Pixel sakura static**
-![japanese_aesthetic](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/japanese_aesthetic.png?raw=true)|![pixel_sakura_static](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/pixel_sakura_static.png?raw=true)
+![japanese_aesthetic](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/japanese_aesthetic.png?raw=true)|![pixel_sakura_static](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/pixel_sakura_static.png?raw=true)
 **Purple leaves**|**Cyberpunk**
-![purple_leaves](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/purple_leaves.png?raw=true)|![cyberpunk](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/cyberpunk.png?raw=true)
+![purple_leaves](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/purple_leaves.png?raw=true)|![cyberpunk](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/cyberpunk.png?raw=true)
 **Post-apocalyptic hacker**|**xxx**
-![post-apocalyptic_hacker](https://github.com/Keyitdev/screenshots/blob/master/sddm-astronaut-theme/master/post-apocalyptic_hacker.png?raw=true)|
+![post-apocalyptic_hacker](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/post-apocalyptic_hacker.png?raw=true)|
 
 **Hyprland Kath**
 
@@ -51,9 +50,9 @@ https://github.com/user-attachments/assets/181d48c2-f152-45f5-b568-21145be180f6
 ### Automatic Installation
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/kakawait/sddm-astronaut-theme/master/setup.sh)"
 ```
-> Works on distributions using pacman, xbps-install, dnf, zypper.   
+> Works on distributions using pacman, xbps-install, dnf, zypper.
 > Remember to always read the scripts you run from the internet.
 
 ### Manual Installation
@@ -73,7 +72,7 @@ sddm-qt6 libQt6Svg6 qt6-virtualkeyboard qt6-virtualkeyboard-imports qt6-multimed
 
 2. Clone this repository
 ```sh
-sudo git clone -b master --depth 1 https://github.com/keyitdev/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
+sudo git clone -b master --depth 1 https://github.com/kakawait/sddm-astronaut-theme.git /usr/share/sddm/themes/sddm-astronaut-theme
 ```
 3. Copy fonts to `/usr/share/fonts/`
 ```sh
@@ -111,7 +110,7 @@ sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/sddm-astronaut-theme
 ## Sources
 
 Initially the theme was independed fork of [MarianArlt's theme](https://github.com/MarianArlt/sddm-sugar-dark) but now the project has come a long way and started to significantly deviate from the original.
-Many of the wallpapers and fonts used in this project are very popular and copied from one user to another, so I don't know who the original creator is. 
+Many of the wallpapers and fonts used in this project are very popular and copied from one user to another, so I don't know who the original creator is.
 I also redesigned many of them, but here are links to some of the orginal artists who created these wonderful wallpapers:
 
 - Astronaut: [wallpaper](https://wallhaven.cc/w/e76pew), [font](https://fonts.google.com/specimen/Open+Sans/about)
@@ -123,14 +122,12 @@ I also redesigned many of them, but here are links to some of the orginal artist
 - Hyprland Kath: [wallpaper](https://motionbgs.com/andvari-last-origin), [font](https://www.1001fonts.com/pixelon-font.html)
 - Pixel sakura: [wallpaper](https://imgur.com/gallery/sakura-tree-with-petals-flying-off-t5tg4N8), [font](https://www.1001fonts.com/arcadeclassic-font.html)
 - Jake the dog: [wallpaper](https://motionbgs.com/jake-the-dog), [font](https://fontmeme.com/fonts/thunderman-font/)
-  
+- Island: [wallpaper](https://www.reddit.com/r/wallpaper/comments/k02una/outset_island_throughout_the_day_3840x2160/) (source image from [google drive](https://drive.google.com/file/d/1G22S-b5aeksYqIe-tO9vl5y1OlTvQLxv/view)), [font](https://fonts.google.com/specimen/Open+Sans/about)
+
 ## Supporting project
 
-You can support me simply by dropping a **star** on **[github](https://github.com/Keyitdev/sddm-astronaut-theme)** or giving a **subscription** on **[YouTube](http://www.youtube.com/channel/UCVoGVyAP2sHPQyegwBMJKyQ?sub_confirmation=1)**.
+You can support me simply by dropping a **star** on **[github](https://github.com/kakawait/sddm-astronaut-theme)**.
 
-If you enjoyed it and would like to show your appreciation, you can make a **[donation](https://ko-fi.com/keyitdev)** using **[kofi](https://ko-fi.com/keyitdev)**.
-
-[![Ko-fi](https://img.shields.io/badge/support_me_on_ko--fi-F16061?style=for-the-badge&logo=kofi&logoColor=f5f5f5)](https://ko-fi.com/keyitdev)
-
-Distributed under the **[GPLv3+](https://www.gnu.org/licenses/gpl-3.0.html) License**.    
+Distributed under the **[GPLv3+](https://www.gnu.org/licenses/gpl-3.0.html) License**.
 Copyright (C) 2022-2025 Keyitdev.
+Copyright (C) 2025 kakawait.

@@ -1,8 +1,8 @@
 [SddmGreeterTheme]
 Name=sddm-astronaut-theme
 Description=sddm-astronaut-theme
-Author=keyitdev
-Website=https://github.com/Keyitdev/sddm-astronaut-theme
+Author=kakawait
+Website=https://github.com/kakawait/sddm-astronaut-theme
 License=GPL-3.0-or-later
 Type=sddm-theme
 Version=1.3

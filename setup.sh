@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Keyitdev https://github.com/Keyitdev/sddm-astronaut-theme
+## https://github.com/kakawait/sddm-astronaut-theme
 ## Copyright (C) 2022-2025 Keyitdev
 ## Distributed under the GPLv3+ License https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,7 +37,7 @@ git_clone(){
     umask 022
     echo -e "${green}[*] Cloning theme to $path_to_git_clone.${no_color}"
     [ -d "$path_to_git_clone"/sddm-astronaut-theme ] && sudo mv "$path_to_git_clone"/sddm-astronaut-theme "$path_to_git_clone"/sddm-astronaut-theme_$date && echo -e "${green}[*] Old configs detected in $path_to_git_clone, backing up.${no_color}"
-    git clone -b master --depth 1 https://github.com/keyitdev/sddm-astronaut-theme.git "$path_to_git_clone"/sddm-astronaut-theme
+    git clone -b master --depth 1 https://github.com/kakawait/sddm-astronaut-theme.git "$path_to_git_clone"/sddm-astronaut-theme
 }
 
 copy_files(){
@@ -61,7 +61,7 @@ select_theme(){
     line=$(grep $text "$path_to_metadata")
 
     themes="astronaut black_hole cyberpunk hyprland_kath jake_the_dog japanese_aesthetic pixel_sakura pixel_sakura_static post-apocalyptic_hacker purple_leaves"
-    
+
     echo -e "${green}[*] Select theme (enter number e.g. astronaut - 1).${no_color}"
     echo -e "${green}[*] 0. Other (choose if you created your own theme)."
     echo -e "${green}[*] 1. Astronaut                   2. Black hole${no_color}"
@@ -70,7 +70,7 @@ select_theme(){
     echo -e "${green}[*] 7. Pixel sakura (animated)     8. Pixel sakura (static)${no_color}"
     echo -e "${green}[*] 9. Post-apocalyptic hacker    10. Purple leaves${no_color}"
     read -p "[*] Your choice: " new_number
-    
+
     if [ "$new_number" -eq 0 ] 2>/dev/null;then
         echo -e "${green}[*] Enter name of the config file (without .conf).${no_color}"
         read -p "[*] Theme name: " answer
@@ -92,12 +92,12 @@ select_theme(){
 
 enable_sddm(){
     systemctl disable display-manager.service
-    systemctl enable sddm.service 
+    systemctl enable sddm.service
 }
 
 while true; do
     clear
-    echo -e "${green}sddm-astronaut-theme made by Keyitdev${no_color}"
+    echo -e "${green}sddm-astronaut-theme made by Keyitdev & kakawait${no_color}"
     echo -e "${green}[*] Choose option.${no_color}"
     echo -e "1. All of the below."
     echo -e "2. Install dependencies with package manager."
