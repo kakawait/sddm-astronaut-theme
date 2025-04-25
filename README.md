@@ -3,15 +3,17 @@
 ![Stars](https://img.shields.io/github/stars/kakawait/sddm-astronaut-theme?color=dd864a&labelColor=1b1b25&style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/kakawait/sddm-astronaut-theme?color=bf616a&labelColor=1b1b25&style=for-the-badge)
 
+![island_animation_24h.webp](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/island_animation_24h.webp?raw=true)
+
 [sddm-astronaut-theme](https://github.com/kakawait/sddm-astronaut-theme) is a series of themes for the [SDDM](https://github.com/sddm/sddm/) display manager made by **[Keyitdev](https://github.com/Keyitdev)** and forked by myself **[Kakawait](https://github.com/kakawait)**.
 
 It's written using the latest version of Qt, which is **Qt6**. Its key features include **virtual keyboard support** and an **installation script**. This theme also support **animated wallpapers**. You can easily change its appearance by choosing another of the ten pre-made themes or creating your own. Each of these themes was created by modifying just one file - **[config](./Themes/astronaut.conf)**.
 
 Most themes were created for 1080p. However, they should work well in other resolutions.
 
-## Preview of all themes
+## Preview of other themes
 
-![all_themes.gif](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/all_themes.gif?raw=true)
+![all_themes.gif](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/all_themes.gif?raw=true)
 
 ## Preview of animated themes
 
@@ -23,13 +25,13 @@ https://github.com/user-attachments/assets/2cfc947e-4621-4e98-b5f3-07d5e224b80c
 
 **Astronaut**|**Black hole**
 |:--:|:--:|
-![astronaut](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/astronaut.png?raw=true)|![black_hole](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/black_hole.png?raw=true)
+![astronaut](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/astronaut.png?raw=true)|![black_hole](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/black_hole.png?raw=true)
 **Japanese aesthetic**|**Pixel sakura static**
-![japanese_aesthetic](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/japanese_aesthetic.png?raw=true)|![pixel_sakura_static](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/pixel_sakura_static.png?raw=true)
+![japanese_aesthetic](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/japanese_aesthetic.png?raw=true)|![pixel_sakura_static](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/pixel_sakura_static.png?raw=true)
 **Purple leaves**|**Cyberpunk**
-![purple_leaves](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/purple_leaves.png?raw=true)|![cyberpunk](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/cyberpunk.png?raw=true)
+![purple_leaves](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/purple_leaves.png?raw=true)|![cyberpunk](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/cyberpunk.png?raw=true)
 **Post-apocalyptic hacker**|**xxx**
-![post-apocalyptic_hacker](https://github.com/kakawait/screenshots/blob/master/sddm-astronaut-theme/master/post-apocalyptic_hacker.png?raw=true)|
+![post-apocalyptic_hacker](https://github.com/kakawait/sddm-astronaut-theme/blob/master/Previews/post-apocalyptic_hacker.png?raw=true)|
 
 **Hyprland Kath**
 
